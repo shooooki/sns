@@ -76,7 +76,7 @@ const TweetInput: React.FC = () => {
           />
           <input
             className={styles.tweet_input}
-            placeholder="ツイートしちゃいなよyou"
+            placeholder="ツイートしてみよう !"
             type="text"
             autoFocus
             value={tweetMsg}
