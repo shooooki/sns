@@ -5,6 +5,7 @@ import { selectUser, login, logout } from "./features/userSlice";
 import { auth } from "./firebase";
 import Auth from "./components/Auth";
 import Feed from "./components/Feed";
+import AppBar from "./components/AppBar";
 
 const App: React.FC = () => {
   const user = useSelector(selectUser);
@@ -32,6 +33,7 @@ const App: React.FC = () => {
     <>
       {user.uid ? (
         <div className={styles.app}>
+          <AppBar />
           <Feed />
         </div>
       ) : (

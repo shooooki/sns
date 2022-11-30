@@ -110,6 +110,6 @@ const TweetInput: React.FC = () => {
       </form>
     </>
   );
-}
+};
 
 export default TweetInput;

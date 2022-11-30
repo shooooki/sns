@@ -4,6 +4,7 @@ import { db } from "../firebase";
 import TweetInput from "./TweetInput";
 import Post from "./Post";
 
+
 const Feed: React.FC = () => {
   const [posts, setPosts] = useState([
     {
@@ -56,6 +57,7 @@ const Feed: React.FC = () => {
           ))}
         </>
       )}
+
     </div>
   );
 };
